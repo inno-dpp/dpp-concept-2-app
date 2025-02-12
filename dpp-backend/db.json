@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "PRD123456",
+      "name": "Eco-Friendly Laptop",
+      "manufacturer": "TechGreen",
+      "productionDate": "2024-01-15",
+      "carbonFootprint": "45kg CO2",
+      "recyclingInstructions": "Separate battery and electronics",
+      "materials": [
+        { "name": "Recycled Aluminum", "percentage": 85 },
+        { "name": "Recycled Plastic", "percentage": 10 },
+        { "name": "Other Materials", "percentage": 5 }
+      ],
+      "repairScore": 8.5,
+      "location": {
+        "current": "Distribution Center, Hamburg",
+        "history": ["Assembly, Taiwan", "Components, Japan"]
+      }
+    },
+    {
+      "id": "PRD789012",
+      "name": "Sustainable Smartphone",
+      "manufacturer": "EcoMobile",
+      "productionDate": "2024-02-01",
+      "carbonFootprint": "22kg CO2",
+      "recyclingInstructions": "Return to manufacturer for recycling",
+      "materials": [
+        { "name": "Recycled Glass", "percentage": 70 },
+        { "name": "Bio Plastic", "percentage": 20 },
+        { "name": "Rare Earth Metals", "percentage": 10 }
+      ],
+      "repairScore": 7.8,
+      "location": {
+        "current": "Retail Store, Berlin",
+        "history": ["Assembly, Vietnam", "Components, South Korea"]
+      }
+    }
+  ]
+}

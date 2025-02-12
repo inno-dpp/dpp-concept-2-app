@@ -1,0 +1,12 @@
+{
+  "port": 8080,
+  "watch": true,
+  "static": "./public",
+  "no-cors": false,
+  "no-gzip": false,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  }
+}
